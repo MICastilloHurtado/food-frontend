@@ -35,7 +35,9 @@ const CardsContainer = () => {
  
     return(
         <div className={style.container}>
-            {currentRecipes?.map(recipe =>
+            {currentRecipes.length === 0 ?
+            <h1>LOADING...</h1>:
+            currentRecipes?.map(recipe =>
                 <Card
                 key={recipe.id}
                 id={recipe.id}
