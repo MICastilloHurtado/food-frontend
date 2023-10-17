@@ -6,7 +6,7 @@ import axios from 'axios'
 
 //************************LISTAR TODAS LAS RECETAS********************************** */
 export const allRecipes = () => {
-    const endpoint = 'http://localhost:3001/food/recipes';
+    const endpoint = '/food/recipes';
     return async (dispatch) => {
         const {data} = await axios.get(endpoint);
         return dispatch({
@@ -19,7 +19,7 @@ export const allRecipes = () => {
 //************************BUSCAR POR ID********************************** */
 
 export const getRecipeById = (id) =>{
-    const endpoint = `http://localhost:3001/food/recipes/${id}`;
+    const endpoint = `/food/recipes/${id}`;
     return async (dispatch) => {
         const {data} = await axios.get(endpoint);
         return dispatch({
@@ -31,7 +31,7 @@ export const getRecipeById = (id) =>{
 
 //************************LISTAR RECETA POR NAME ********************************** */
 export const getNameRecipe = (name) => {
-    const endpoint = `http://localhost:3001/food/recipesName?name=${name}`;
+    const endpoint = `/food/recipesName?name=${name}`;
 
     return async (dispatch) => {
         const {data} = await axios.get(endpoint);
@@ -44,7 +44,7 @@ export const getNameRecipe = (name) => {
 
 //************************LISTAR TODAS LAS DIETAS********************************** */
 export const allDiets = () => {
-    const endpoint = "http://localhost:3001/food/diets"
+    const endpoint = "/food/diets"
     return async (dispatch) => {
         const {data} = await axios.get(endpoint);
         return dispatch({
@@ -57,7 +57,7 @@ export const allDiets = () => {
 //*************************CREAR RECETA********************************* */
 
 export const createRecipe = (create) => {
-    const endpoint = 'http://localhost:3001/food/recipes'
+    const endpoint = '/food/recipes'
     return async (dispatch) => {
         const {data} = await axios.post(endpoint, create);
         return dispatch({
