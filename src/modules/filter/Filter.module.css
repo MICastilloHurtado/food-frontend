@@ -1,0 +1,34 @@
+.container{
+    margin-top: 1em;  
+  }
+
+  .container select {
+    padding: 6px 12px;
+    color: #333;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .container select:hover {
+    outline: none;
+    border: 1px solid #bbb;
+  }
+
+  .container select option {
+    background-color: #fff;
+  }
+  .container button {
+    padding: 6px 12px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .container button:hover{
+    outline: none;
+    border: 1px solid #bbb
+  }

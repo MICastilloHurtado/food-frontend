@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    background-color: #DAB762;
+    font-size: 22px;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.buttonContainer{
+    margin-top: 10px;
+    
+    }
+
+.button{
+    background-color: gold;
+    padding: 0.5rem;
+    border: 1px solid gold;
+    font-size: 1.5rem;
+    font-family: "Times New Roman";
+    transition: background-color 0.5s;
+    border-radius: 50px;
+    cursor: pointer
+}
+
+.button:hover{
+        border: 2px solid gold;
+        background-color: black;
+        color: gold;
+}

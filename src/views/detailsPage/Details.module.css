@@ -1,0 +1,48 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(218, 183, 98, 0.6);
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .summary {
+    margin-bottom: 10px;
+  }
+  
+  .healthScore {
+    margin-bottom: 10px;
+  }
+  
+  .steps {
+    margin-bottom: 10px;
+  }
+  
+  .diets {
+    margin-bottom: 20px;
+  }
+  
+  .loading {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  

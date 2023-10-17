@@ -1,0 +1,34 @@
+.card{
+  height: 400px;
+  width: 315px;    
+  background-color: #8B4513;
+  padding: 20px;
+  border-radius: 30px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #FFD700;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.diets {
+  color: #FFF;
+  font-size: 14px;
+}
+
+.link{
+    text-decoration: none;
+}
